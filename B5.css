@@ -1,0 +1,72 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+   
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 25px;
+    min-height: 100vh;
+    background-image: url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    padding-bottom: 70px;
+}
+.Container form{
+    padding: 20px;
+    width: 700px;
+    background: #ffffff73;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.Container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+}
+.inputbox img{
+    width:5cm;
+    height:30px;
+}
+.Container form .row .col{
+    flex:1 1 250px;
+}
+.Container form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.Container form .row .col .title .inputbox{
+    margin:15px 0;
+}
+.Container form .row .col .title .inputbox span{
+    margin-bottom: 10px;
+    display:block;
+}
+.Container form .row .col .title .inputbox input{
+    width:100%;
+    border:1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.Container form .row .col .title .inputbox input:focus{
+    border:1px solid #000;
+}
+.Container form .row .col .flex{
+    display:flex;
+    gap: 15px;
+}
+.Container form .row .col .flex .inputbox{
+    margin-top: 5px;
+}
+.Container form .row .col .inputbox img{
+    height:34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
